@@ -1,0 +1,6 @@
+framework module Pods_PlanChat {
+  umbrella header "Pods-PlanChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

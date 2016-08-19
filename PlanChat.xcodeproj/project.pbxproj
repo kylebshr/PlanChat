@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71DF1D6782D0000DE609 /* AppDelegate.swift */; };
 		274E71E21D6782D0000DE609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71E11D6782D0000DE609 /* ViewController.swift */; };
-		274E71E51D6782D0000DE609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E31D6782D0000DE609 /* Main.storyboard */; };
+		274E71E51D6782D0000DE609 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E31D6782D0000DE609 /* Splash.storyboard */; };
 		274E71E71D6782D0000DE609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E61D6782D0000DE609 /* Assets.xcassets */; };
 		274E71EA1D6782D0000DE609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */; };
 		274E71F51D6782D0000DE609 /* PlanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71F41D6782D0000DE609 /* PlanChatTests.swift */; };
 		274E72001D6782D0000DE609 /* PlanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71FF1D6782D0000DE609 /* PlanChatUITests.swift */; };
+		274E720E1D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
+		274E720F1D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
+		274E72101D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
+		274E72121D678843000DE609 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E72111D678843000DE609 /* LogIn.storyboard */; };
+		274E72151D6788A9000DE609 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E72141D6788A9000DE609 /* R.generated.swift */; };
+		B8E03779AA6AB019B09F7EF5 /* Pods_PlanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */; };
+		CFA9ADB9741DB1CB630C64A2 /* Pods_PlanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */; };
+		D295517134DE6F555C962EEF /* Pods_PlanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.debug.xcconfig"; sourceTree = "<group>"; };
 		274E71DC1D6782D0000DE609 /* PlanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274E71DF1D6782D0000DE609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		274E71E11D6782D0000DE609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		274E71E41D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274E71E41D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		274E71E61D6782D0000DE609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274E71E91D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		274E71EB1D6782D0000DE609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		274E71FB1D6782D0000DE609 /* PlanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274E71FF1D6782D0000DE609 /* PlanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanChatUITests.swift; sourceTree = "<group>"; };
 		274E72011D6782D0000DE609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274E720D1D6782F5000DE609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		274E72111D678843000DE609 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		274E72141D6788A9000DE609 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA9ADB9741DB1CB630C64A2 /* Pods_PlanChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E03779AA6AB019B09F7EF5 /* Pods_PlanChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D295517134DE6F555C962EEF /* Pods_PlanChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CDB6D91EB59A77E024B56D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */,
+				BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */,
+				96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13A1214B4396A32211F067C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */,
+				F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */,
+				BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */,
+				D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */,
+				834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */,
+				1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		274E71D31D6782D0000DE609 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				274E71F31D6782D0000DE609 /* PlanChatTests */,
 				274E71FE1D6782D0000DE609 /* PlanChatUITests */,
 				274E71DD1D6782D0000DE609 /* Products */,
+				13A1214B4396A32211F067C9 /* Pods */,
+				0CDB6D91EB59A77E024B56D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +147,13 @@
 			children = (
 				274E71DF1D6782D0000DE609 /* AppDelegate.swift */,
 				274E71E11D6782D0000DE609 /* ViewController.swift */,
-				274E71E31D6782D0000DE609 /* Main.storyboard */,
+				274E71E31D6782D0000DE609 /* Splash.storyboard */,
+				274E72111D678843000DE609 /* LogIn.storyboard */,
 				274E71E61D6782D0000DE609 /* Assets.xcassets */,
 				274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */,
 				274E71EB1D6782D0000DE609 /* Info.plist */,
+				274E720D1D6782F5000DE609 /* GoogleService-Info.plist */,
+				274E72141D6788A9000DE609 /* R.generated.swift */,
 			);
 			path = PlanChat;
 			sourceTree = "<group>";
@@ -132,9 +183,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274E72041D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChat" */;
 			buildPhases = (
+				8A9894EFBACBD48B1EC09DB0 /* [CP] Check Pods Manifest.lock */,
+				274E72131D67887C000DE609 /* R.swift */,
 				274E71D81D6782D0000DE609 /* Sources */,
 				274E71D91D6782D0000DE609 /* Frameworks */,
 				274E71DA1D6782D0000DE609 /* Resources */,
+				6E05CCD92A8E3BEB29DD1A5F /* [CP] Embed Pods Frameworks */,
+				AC80F86B5277380FB209A9DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274E72071D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatTests" */;
 			buildPhases = (
+				B17190577E31B09FB876A847 /* [CP] Check Pods Manifest.lock */,
 				274E71EC1D6782D0000DE609 /* Sources */,
 				274E71ED1D6782D0000DE609 /* Frameworks */,
 				274E71EE1D6782D0000DE609 /* Resources */,
+				4A8A9466F920D6BFB81AC56F /* [CP] Embed Pods Frameworks */,
+				7651605457F28A5E62924E4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274E720A1D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */;
 			buildPhases = (
+				D4A6801C90C37D58274D7B2E /* [CP] Check Pods Manifest.lock */,
 				274E71F71D6782D0000DE609 /* Sources */,
 				274E71F81D6782D0000DE609 /* Frameworks */,
 				274E71F91D6782D0000DE609 /* Resources */,
+				B242636BB13D281519B81CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				274E71EA1D6782D0000DE609 /* LaunchScreen.storyboard in Resources */,
+				274E720E1D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
 				274E71E71D6782D0000DE609 /* Assets.xcassets in Resources */,
-				274E71E51D6782D0000DE609 /* Main.storyboard in Resources */,
+				274E71E51D6782D0000DE609 /* Splash.storyboard in Resources */,
+				274E72121D678843000DE609 /* LogIn.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274E720F1D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +309,148 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274E72101D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274E72131D67887C000DE609 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"\n";
+		};
+		4A8A9466F920D6BFB81AC56F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E05CCD92A8E3BEB29DD1A5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7651605457F28A5E62924E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9894EFBACBD48B1EC09DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC80F86B5277380FB209A9DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17190577E31B09FB876A847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B242636BB13D281519B81CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A6801C90C37D58274D7B2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		274E71D81D6782D0000DE609 /* Sources */ = {
@@ -258,6 +459,7 @@
 			files = (
 				274E71E21D6782D0000DE609 /* ViewController.swift in Sources */,
 				274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */,
+				274E72151D6788A9000DE609 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +495,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		274E71E31D6782D0000DE609 /* Main.storyboard */ = {
+		274E71E31D6782D0000DE609 /* Splash.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				274E71E41D6782D0000DE609 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Splash.storyboard;
 			sourceTree = "<group>";
 		};
 		274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */ = {
@@ -397,6 +599,7 @@
 		};
 		274E72051D6782D0000DE609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlanChat/Info.plist;
@@ -408,6 +611,7 @@
 		};
 		274E72061D6782D0000DE609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlanChat/Info.plist;
@@ -419,6 +623,7 @@
 		};
 		274E72081D6782D0000DE609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PlanChatTests/Info.plist;
@@ -431,6 +636,7 @@
 		};
 		274E72091D6782D0000DE609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PlanChatTests/Info.plist;
@@ -443,6 +649,7 @@
 		};
 		274E720B1D6782D0000DE609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PlanChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +661,7 @@
 		};
 		274E720C1D6782D0000DE609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PlanChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +690,7 @@
 				274E72061D6782D0000DE609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274E72071D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +699,7 @@
 				274E72091D6782D0000DE609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274E720A1D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +708,7 @@
 				274E720C1D6782D0000DE609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
