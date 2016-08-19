@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71DF1D6782D0000DE609 /* AppDelegate.swift */; };
-		274E71E21D6782D0000DE609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71E11D6782D0000DE609 /* ViewController.swift */; };
+		274E71E21D6782D0000DE609 /* LoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */; };
 		274E71E51D6782D0000DE609 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E31D6782D0000DE609 /* Splash.storyboard */; };
 		274E71E71D6782D0000DE609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E61D6782D0000DE609 /* Assets.xcassets */; };
 		274E71EA1D6782D0000DE609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */; };
@@ -19,6 +19,7 @@
 		274E72101D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
 		274E72121D678843000DE609 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E72111D678843000DE609 /* LogIn.storyboard */; };
 		274E72151D6788A9000DE609 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E72141D6788A9000DE609 /* R.generated.swift */; };
+		27B36FFE1D678FC7006F14C2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */; };
 		B8E03779AA6AB019B09F7EF5 /* Pods_PlanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */; };
 		CFA9ADB9741DB1CB630C64A2 /* Pods_PlanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */; };
 		D295517134DE6F555C962EEF /* Pods_PlanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */; };
@@ -46,7 +47,7 @@
 		1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.debug.xcconfig"; sourceTree = "<group>"; };
 		274E71DC1D6782D0000DE609 /* PlanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		274E71DF1D6782D0000DE609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		274E71E11D6782D0000DE609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsViewController.swift; sourceTree = "<group>"; };
 		274E71E41D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		274E71E61D6782D0000DE609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274E71E91D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		274E720D1D6782F5000DE609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		274E72111D678843000DE609 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		274E72141D6788A9000DE609 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				274E71DF1D6782D0000DE609 /* AppDelegate.swift */,
-				274E71E11D6782D0000DE609 /* ViewController.swift */,
+				274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */,
+				27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */,
 				274E71E31D6782D0000DE609 /* Splash.storyboard */,
 				274E72111D678843000DE609 /* LogIn.storyboard */,
 				274E71E61D6782D0000DE609 /* Assets.xcassets */,
@@ -457,9 +460,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E71E21D6782D0000DE609 /* ViewController.swift in Sources */,
+				274E71E21D6782D0000DE609 /* LoginOptionsViewController.swift in Sources */,
 				274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */,
 				274E72151D6788A9000DE609 /* R.generated.swift in Sources */,
+				27B36FFE1D678FC7006F14C2 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
