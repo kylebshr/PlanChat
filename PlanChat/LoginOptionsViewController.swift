@@ -8,10 +8,20 @@
 
 import UIKit
 
+
 class LoginOptionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        setUpAuth()
+    }
+
+    func setUpAuth() {
+
+    }
+
+    @IBAction func logInTapped(sender: UIButton) {
 
     }
 }

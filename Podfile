@@ -7,7 +7,8 @@ target 'PlanChat' do
   # Pods for PlanChat
   
   pod 'Firebase'
-  pod 'FirebaseUI/Facebook', '~> 0.4'
+  pod 'Firebase/Auth'
+  pod 'FBSDKLoginKit'
   pod 'R.swift'
 
   target 'PlanChatTests' do

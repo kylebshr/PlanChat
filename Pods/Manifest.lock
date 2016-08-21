@@ -29,12 +29,6 @@ PODS:
     - GoogleParsingUtilities (~> 1.1)
     - GoogleUtilities (~> 1.2)
   - FirebaseInstanceID (1.0.8)
-  - FirebaseUI/AuthBase (0.4.0):
-    - Firebase/Analytics (~> 3.0)
-    - Firebase/Auth (~> 3.0)
-  - FirebaseUI/Facebook (0.4.0):
-    - FBSDKLoginKit (~> 4.0)
-    - FirebaseUI/AuthBase
   - GoogleInterchangeUtilities (1.2.1):
     - GoogleSymbolUtilities (~> 1.0)
   - GoogleNetworkingUtilities (1.2.1):
@@ -50,8 +44,9 @@ PODS:
   - R.swift.Library (2.2.0)
 
 DEPENDENCIES:
+  - FBSDKLoginKit
   - Firebase
-  - FirebaseUI/Facebook (~> 0.4)
+  - Firebase/Auth
   - R.swift
 
 SPEC CHECKSUMS:
@@ -62,7 +57,6 @@ SPEC CHECKSUMS:
   FirebaseAnalytics: 228be2991cb28efb96cdafc4d62f64680e615c69
   FirebaseAuth: 26fd291c3b552fc9658420b867520d5ae080421c
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
-  FirebaseUI: 691e0f500c762a4c8b5b6ed93c011e871ecd8aad
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
   GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
   GoogleParsingUtilities: 30b3896f9ee167dc78747f013d3de157ced1cadf
@@ -71,6 +65,6 @@ SPEC CHECKSUMS:
   R.swift: 0ef9c42dc6c94ac44a3c78a7639c73f855a8e159
   R.swift.Library: 31a487b65381f37a7d203a6f1f935b43c9be35b0
 
-PODFILE CHECKSUM: 8621525cab54b70bda37806e7a64762b47a9f6e6
+PODFILE CHECKSUM: b9cbc0bd4d0faa4ddf5420b3c9369ffe72bf3950
 
 COCOAPODS: 1.0.1
