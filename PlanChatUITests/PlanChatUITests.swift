@@ -2,7 +2,7 @@
 //  PlanChatUITests.swift
 //  PlanChatUITests
 //
-//  Created by Kyle Bashour on 8/19/16.
+//  Created by Kyle Bashour on 8/21/16.
 //  Copyright © 2016 Kyle Bashour. All rights reserved.
 //
 

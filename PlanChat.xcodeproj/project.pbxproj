@@ -7,192 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71DF1D6782D0000DE609 /* AppDelegate.swift */; };
-		274E71E21D6782D0000DE609 /* LoginOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */; };
-		274E71E51D6782D0000DE609 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E31D6782D0000DE609 /* Splash.storyboard */; };
-		274E71E71D6782D0000DE609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E61D6782D0000DE609 /* Assets.xcassets */; };
-		274E71EA1D6782D0000DE609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */; };
-		274E71F51D6782D0000DE609 /* PlanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71F41D6782D0000DE609 /* PlanChatTests.swift */; };
-		274E72001D6782D0000DE609 /* PlanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E71FF1D6782D0000DE609 /* PlanChatUITests.swift */; };
-		274E720E1D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
-		274E720F1D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
-		274E72101D6782F5000DE609 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 274E720D1D6782F5000DE609 /* GoogleService-Info.plist */; };
-		274E72121D678843000DE609 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274E72111D678843000DE609 /* LogIn.storyboard */; };
-		274E72151D6788A9000DE609 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274E72141D6788A9000DE609 /* R.generated.swift */; };
-		27B36FFE1D678FC7006F14C2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */; };
-		B8E03779AA6AB019B09F7EF5 /* Pods_PlanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */; };
-		CFA9ADB9741DB1CB630C64A2 /* Pods_PlanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */; };
-		D295517134DE6F555C962EEF /* Pods_PlanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */; };
+		277261FC1D6AB0CA007A1DE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 277261FB1D6AB0CA007A1DE1 /* GoogleService-Info.plist */; };
+		277261FE1D6AB390007A1DE1 /* FBSDKLoginManager+Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277261FD1D6AB390007A1DE1 /* FBSDKLoginManager+Shared.swift */; };
+		277B4F371D6A4D46002DEB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F361D6A4D46002DEB58 /* AppDelegate.swift */; };
+		277B4F391D6A4D46002DEB58 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F381D6A4D46002DEB58 /* OnboardViewController.swift */; };
+		277B4F3C1D6A4D46002DEB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B4F3A1D6A4D46002DEB58 /* Main.storyboard */; };
+		277B4F3E1D6A4D46002DEB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277B4F3D1D6A4D46002DEB58 /* Assets.xcassets */; };
+		277B4F411D6A4D46002DEB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B4F3F1D6A4D46002DEB58 /* LaunchScreen.storyboard */; };
+		277B4F4C1D6A4D46002DEB58 /* PlanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F4B1D6A4D46002DEB58 /* PlanChatTests.swift */; };
+		277B4F571D6A4D46002DEB58 /* PlanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F561D6A4D46002DEB58 /* PlanChatUITests.swift */; };
+		277B4F671D6A4DEF002DEB58 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B4F661D6A4DEF002DEB58 /* Splash.storyboard */; };
+		277B4F691D6A4E5A002DEB58 /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277B4F681D6A4E5A002DEB58 /* Onboard.storyboard */; };
+		277B4F6B1D6AA40E002DEB58 /* UIView+IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F6A1D6AA40E002DEB58 /* UIView+IBDesignables.swift */; };
+		277B4F6E1D6AA539002DEB58 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F6D1D6AA539002DEB58 /* SplashViewController.swift */; };
+		277B4F701D6AA560002DEB58 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B4F6F1D6AA560002DEB58 /* User.swift */; };
+		7467D7D39CF37E91441311B7 /* Pods_PlanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862C173427ABFD9A10BECF8 /* Pods_PlanChatUITests.framework */; };
+		BA8B86EDD5BC653DE954A32A /* Pods_PlanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD64DBBAC15EB5BDD6F9440 /* Pods_PlanChatTests.framework */; };
+		DAC3C70F520FB4DBA1F388B3 /* Pods_PlanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872FD4C94FFD652F9B03D27C /* Pods_PlanChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		274E71F11D6782D0000DE609 /* PBXContainerItemProxy */ = {
+		277B4F481D6A4D46002DEB58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 274E71D41D6782D0000DE609 /* Project object */;
+			containerPortal = 277B4F2B1D6A4D46002DEB58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 274E71DB1D6782D0000DE609;
+			remoteGlobalIDString = 277B4F321D6A4D46002DEB58;
 			remoteInfo = PlanChat;
 		};
-		274E71FC1D6782D0000DE609 /* PBXContainerItemProxy */ = {
+		277B4F531D6A4D46002DEB58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 274E71D41D6782D0000DE609 /* Project object */;
+			containerPortal = 277B4F2B1D6A4D46002DEB58 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 274E71DB1D6782D0000DE609;
+			remoteGlobalIDString = 277B4F321D6A4D46002DEB58;
 			remoteInfo = PlanChat;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.debug.xcconfig"; sourceTree = "<group>"; };
-		274E71DC1D6782D0000DE609 /* PlanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		274E71DF1D6782D0000DE609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsViewController.swift; sourceTree = "<group>"; };
-		274E71E41D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
-		274E71E61D6782D0000DE609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		274E71E91D6782D0000DE609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		274E71EB1D6782D0000DE609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274E71F01D6782D0000DE609 /* PlanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274E71F41D6782D0000DE609 /* PlanChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanChatTests.swift; sourceTree = "<group>"; };
-		274E71F61D6782D0000DE609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274E71FB1D6782D0000DE609 /* PlanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		274E71FF1D6782D0000DE609 /* PlanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanChatUITests.swift; sourceTree = "<group>"; };
-		274E72011D6782D0000DE609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274E720D1D6782F5000DE609 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		274E72111D678843000DE609 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
-		274E72141D6788A9000DE609 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
-		27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.release.xcconfig"; sourceTree = "<group>"; };
-		F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.release.xcconfig"; sourceTree = "<group>"; };
+		08A5FB9F5C27C5211839CF61 /* Pods-PlanChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BD64DBBAC15EB5BDD6F9440 /* Pods_PlanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277261FB1D6AB0CA007A1DE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		277261FD1D6AB390007A1DE1 /* FBSDKLoginManager+Shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FBSDKLoginManager+Shared.swift"; sourceTree = "<group>"; };
+		277B4F331D6A4D46002DEB58 /* PlanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B4F361D6A4D46002DEB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277B4F381D6A4D46002DEB58 /* OnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		277B4F3B1D6A4D46002DEB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		277B4F3D1D6A4D46002DEB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277B4F401D6A4D46002DEB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277B4F421D6A4D46002DEB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277B4F471D6A4D46002DEB58 /* PlanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B4F4B1D6A4D46002DEB58 /* PlanChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanChatTests.swift; sourceTree = "<group>"; };
+		277B4F4D1D6A4D46002DEB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277B4F521D6A4D46002DEB58 /* PlanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B4F561D6A4D46002DEB58 /* PlanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanChatUITests.swift; sourceTree = "<group>"; };
+		277B4F581D6A4D46002DEB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277B4F661D6A4DEF002DEB58 /* Splash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		277B4F681D6A4E5A002DEB58 /* Onboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		277B4F6A1D6AA40E002DEB58 /* UIView+IBDesignables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IBDesignables.swift"; sourceTree = "<group>"; };
+		277B4F6D1D6AA539002DEB58 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		277B4F6F1D6AA560002DEB58 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CBF79160C1B12A5FCF8F285 /* Pods-PlanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69B4E97EEC66A718B899B887 /* Pods-PlanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.release.xcconfig"; sourceTree = "<group>"; };
+		7862C173427ABFD9A10BECF8 /* Pods_PlanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872FD4C94FFD652F9B03D27C /* Pods_PlanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		964E0C47921101AAEBAFF2FE /* Pods-PlanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2E8F4F98A75254D939CC5C /* Pods-PlanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F57C44E3154EFC267C1546BF /* Pods-PlanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		274E71D91D6782D0000DE609 /* Frameworks */ = {
+		277B4F301D6A4D46002DEB58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFA9ADB9741DB1CB630C64A2 /* Pods_PlanChat.framework in Frameworks */,
+				DAC3C70F520FB4DBA1F388B3 /* Pods_PlanChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71ED1D6782D0000DE609 /* Frameworks */ = {
+		277B4F441D6A4D46002DEB58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E03779AA6AB019B09F7EF5 /* Pods_PlanChatTests.framework in Frameworks */,
+				BA8B86EDD5BC653DE954A32A /* Pods_PlanChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71F81D6782D0000DE609 /* Frameworks */ = {
+		277B4F4F1D6A4D46002DEB58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D295517134DE6F555C962EEF /* Pods_PlanChatUITests.framework in Frameworks */,
+				7467D7D39CF37E91441311B7 /* Pods_PlanChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CDB6D91EB59A77E024B56D3 /* Frameworks */ = {
+		1F2C37A3A39B55C0BA10348F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B092FF06C5D1960C3030FCB /* Pods_PlanChat.framework */,
-				BBC0C649CD8124FACE1A2DE0 /* Pods_PlanChatTests.framework */,
-				96ABACC5B81D20A2F5DC388D /* Pods_PlanChatUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		13A1214B4396A32211F067C9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */,
-				F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */,
-				BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */,
-				D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */,
-				834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */,
-				1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */,
+				F57C44E3154EFC267C1546BF /* Pods-PlanChat.debug.xcconfig */,
+				69B4E97EEC66A718B899B887 /* Pods-PlanChat.release.xcconfig */,
+				DD2E8F4F98A75254D939CC5C /* Pods-PlanChatTests.debug.xcconfig */,
+				08A5FB9F5C27C5211839CF61 /* Pods-PlanChatTests.release.xcconfig */,
+				964E0C47921101AAEBAFF2FE /* Pods-PlanChatUITests.debug.xcconfig */,
+				3CBF79160C1B12A5FCF8F285 /* Pods-PlanChatUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		274E71D31D6782D0000DE609 = {
+		277B4F2A1D6A4D46002DEB58 = {
 			isa = PBXGroup;
 			children = (
-				274E71DE1D6782D0000DE609 /* PlanChat */,
-				274E71F31D6782D0000DE609 /* PlanChatTests */,
-				274E71FE1D6782D0000DE609 /* PlanChatUITests */,
-				274E71DD1D6782D0000DE609 /* Products */,
-				13A1214B4396A32211F067C9 /* Pods */,
-				0CDB6D91EB59A77E024B56D3 /* Frameworks */,
+				277B4F351D6A4D46002DEB58 /* PlanChat */,
+				277B4F4A1D6A4D46002DEB58 /* PlanChatTests */,
+				277B4F551D6A4D46002DEB58 /* PlanChatUITests */,
+				277B4F341D6A4D46002DEB58 /* Products */,
+				1F2C37A3A39B55C0BA10348F /* Pods */,
+				507ED67F39ECDF612DB41159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		274E71DD1D6782D0000DE609 /* Products */ = {
+		277B4F341D6A4D46002DEB58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				274E71DC1D6782D0000DE609 /* PlanChat.app */,
-				274E71F01D6782D0000DE609 /* PlanChatTests.xctest */,
-				274E71FB1D6782D0000DE609 /* PlanChatUITests.xctest */,
+				277B4F331D6A4D46002DEB58 /* PlanChat.app */,
+				277B4F471D6A4D46002DEB58 /* PlanChatTests.xctest */,
+				277B4F521D6A4D46002DEB58 /* PlanChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		274E71DE1D6782D0000DE609 /* PlanChat */ = {
+		277B4F351D6A4D46002DEB58 /* PlanChat */ = {
 			isa = PBXGroup;
 			children = (
-				274E71DF1D6782D0000DE609 /* AppDelegate.swift */,
-				27B36FFD1D678FC7006F14C2 /* SplashViewController.swift */,
-				274E71E11D6782D0000DE609 /* LoginOptionsViewController.swift */,
-				274E71E31D6782D0000DE609 /* Splash.storyboard */,
-				274E72111D678843000DE609 /* LogIn.storyboard */,
-				274E71E61D6782D0000DE609 /* Assets.xcassets */,
-				274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */,
-				274E71EB1D6782D0000DE609 /* Info.plist */,
-				274E720D1D6782F5000DE609 /* GoogleService-Info.plist */,
-				274E72141D6788A9000DE609 /* R.generated.swift */,
+				277B4F361D6A4D46002DEB58 /* AppDelegate.swift */,
+				277B4F381D6A4D46002DEB58 /* OnboardViewController.swift */,
+				277B4F6D1D6AA539002DEB58 /* SplashViewController.swift */,
+				277B4F6A1D6AA40E002DEB58 /* UIView+IBDesignables.swift */,
+				277B4F6F1D6AA560002DEB58 /* User.swift */,
+				277261FD1D6AB390007A1DE1 /* FBSDKLoginManager+Shared.swift */,
+				277B4F661D6A4DEF002DEB58 /* Splash.storyboard */,
+				277B4F3A1D6A4D46002DEB58 /* Main.storyboard */,
+				277B4F681D6A4E5A002DEB58 /* Onboard.storyboard */,
+				277B4F3D1D6A4D46002DEB58 /* Assets.xcassets */,
+				277B4F3F1D6A4D46002DEB58 /* LaunchScreen.storyboard */,
+				277B4F421D6A4D46002DEB58 /* Info.plist */,
+				277261FB1D6AB0CA007A1DE1 /* GoogleService-Info.plist */,
 			);
 			path = PlanChat;
 			sourceTree = "<group>";
 		};
-		274E71F31D6782D0000DE609 /* PlanChatTests */ = {
+		277B4F4A1D6A4D46002DEB58 /* PlanChatTests */ = {
 			isa = PBXGroup;
 			children = (
-				274E71F41D6782D0000DE609 /* PlanChatTests.swift */,
-				274E71F61D6782D0000DE609 /* Info.plist */,
+				277B4F4B1D6A4D46002DEB58 /* PlanChatTests.swift */,
+				277B4F4D1D6A4D46002DEB58 /* Info.plist */,
 			);
 			path = PlanChatTests;
 			sourceTree = "<group>";
 		};
-		274E71FE1D6782D0000DE609 /* PlanChatUITests */ = {
+		277B4F551D6A4D46002DEB58 /* PlanChatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				274E71FF1D6782D0000DE609 /* PlanChatUITests.swift */,
-				274E72011D6782D0000DE609 /* Info.plist */,
+				277B4F561D6A4D46002DEB58 /* PlanChatUITests.swift */,
+				277B4F581D6A4D46002DEB58 /* Info.plist */,
 			);
 			path = PlanChatUITests;
+			sourceTree = "<group>";
+		};
+		507ED67F39ECDF612DB41159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872FD4C94FFD652F9B03D27C /* Pods_PlanChat.framework */,
+				1BD64DBBAC15EB5BDD6F9440 /* Pods_PlanChatTests.framework */,
+				7862C173427ABFD9A10BECF8 /* Pods_PlanChatUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		274E71DB1D6782D0000DE609 /* PlanChat */ = {
+		277B4F321D6A4D46002DEB58 /* PlanChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274E72041D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChat" */;
+			buildConfigurationList = 277B4F5B1D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChat" */;
 			buildPhases = (
-				8A9894EFBACBD48B1EC09DB0 /* [CP] Check Pods Manifest.lock */,
-				274E72131D67887C000DE609 /* R.swift */,
-				274E71D81D6782D0000DE609 /* Sources */,
-				274E71D91D6782D0000DE609 /* Frameworks */,
-				274E71DA1D6782D0000DE609 /* Resources */,
-				6E05CCD92A8E3BEB29DD1A5F /* [CP] Embed Pods Frameworks */,
-				AC80F86B5277380FB209A9DD /* [CP] Copy Pods Resources */,
+				DD23C7A2583B690E6BD74FB6 /* [CP] Check Pods Manifest.lock */,
+				277B4F2F1D6A4D46002DEB58 /* Sources */,
+				277B4F301D6A4D46002DEB58 /* Frameworks */,
+				277B4F311D6A4D46002DEB58 /* Resources */,
+				D61FCA21CBE997C55C5DC7D6 /* [CP] Embed Pods Frameworks */,
+				B997656FAEA1F79545F591F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,74 +206,80 @@
 			);
 			name = PlanChat;
 			productName = PlanChat;
-			productReference = 274E71DC1D6782D0000DE609 /* PlanChat.app */;
+			productReference = 277B4F331D6A4D46002DEB58 /* PlanChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		274E71EF1D6782D0000DE609 /* PlanChatTests */ = {
+		277B4F461D6A4D46002DEB58 /* PlanChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274E72071D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatTests" */;
+			buildConfigurationList = 277B4F5E1D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChatTests" */;
 			buildPhases = (
-				B17190577E31B09FB876A847 /* [CP] Check Pods Manifest.lock */,
-				274E71EC1D6782D0000DE609 /* Sources */,
-				274E71ED1D6782D0000DE609 /* Frameworks */,
-				274E71EE1D6782D0000DE609 /* Resources */,
-				4A8A9466F920D6BFB81AC56F /* [CP] Embed Pods Frameworks */,
-				7651605457F28A5E62924E4E /* [CP] Copy Pods Resources */,
+				2B6A7640BFA7AB3B0C4A9C8B /* [CP] Check Pods Manifest.lock */,
+				277B4F431D6A4D46002DEB58 /* Sources */,
+				277B4F441D6A4D46002DEB58 /* Frameworks */,
+				277B4F451D6A4D46002DEB58 /* Resources */,
+				2915A37CE74DFD084C52CA3F /* [CP] Embed Pods Frameworks */,
+				866A17D4690B1FAFAA82C54C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				274E71F21D6782D0000DE609 /* PBXTargetDependency */,
+				277B4F491D6A4D46002DEB58 /* PBXTargetDependency */,
 			);
 			name = PlanChatTests;
 			productName = PlanChatTests;
-			productReference = 274E71F01D6782D0000DE609 /* PlanChatTests.xctest */;
+			productReference = 277B4F471D6A4D46002DEB58 /* PlanChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		274E71FA1D6782D0000DE609 /* PlanChatUITests */ = {
+		277B4F511D6A4D46002DEB58 /* PlanChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 274E720A1D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */;
+			buildConfigurationList = 277B4F611D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */;
 			buildPhases = (
-				D4A6801C90C37D58274D7B2E /* [CP] Check Pods Manifest.lock */,
-				274E71F71D6782D0000DE609 /* Sources */,
-				274E71F81D6782D0000DE609 /* Frameworks */,
-				274E71F91D6782D0000DE609 /* Resources */,
-				B242636BB13D281519B81CEB /* [CP] Copy Pods Resources */,
+				366E1FEF5392BBBF3FF6C6BF /* [CP] Check Pods Manifest.lock */,
+				277B4F4E1D6A4D46002DEB58 /* Sources */,
+				277B4F4F1D6A4D46002DEB58 /* Frameworks */,
+				277B4F501D6A4D46002DEB58 /* Resources */,
+				8FCFDBE45A0C3A279EE75402 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				274E71FD1D6782D0000DE609 /* PBXTargetDependency */,
+				277B4F541D6A4D46002DEB58 /* PBXTargetDependency */,
 			);
 			name = PlanChatUITests;
 			productName = PlanChatUITests;
-			productReference = 274E71FB1D6782D0000DE609 /* PlanChatUITests.xctest */;
+			productReference = 277B4F521D6A4D46002DEB58 /* PlanChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		274E71D41D6782D0000DE609 /* Project object */ = {
+		277B4F2B1D6A4D46002DEB58 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Kyle Bashour";
 				TargetAttributes = {
-					274E71DB1D6782D0000DE609 = {
-						CreatedOnToolsVersion = 7.3.1;
+					277B4F321D6A4D46002DEB58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZEAD23GG77;
+						ProvisioningStyle = Automatic;
 					};
-					274E71EF1D6782D0000DE609 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 274E71DB1D6782D0000DE609;
+					277B4F461D6A4D46002DEB58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZEAD23GG77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 277B4F321D6A4D46002DEB58;
 					};
-					274E71FA1D6782D0000DE609 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 274E71DB1D6782D0000DE609;
+					277B4F511D6A4D46002DEB58 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZEAD23GG77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 277B4F321D6A4D46002DEB58;
 					};
 				};
 			};
-			buildConfigurationList = 274E71D71D6782D0000DE609 /* Build configuration list for PBXProject "PlanChat" */;
+			buildConfigurationList = 277B4F2E1D6A4D46002DEB58 /* Build configuration list for PBXProject "PlanChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -275,65 +287,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 274E71D31D6782D0000DE609;
-			productRefGroup = 274E71DD1D6782D0000DE609 /* Products */;
+			mainGroup = 277B4F2A1D6A4D46002DEB58;
+			productRefGroup = 277B4F341D6A4D46002DEB58 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				274E71DB1D6782D0000DE609 /* PlanChat */,
-				274E71EF1D6782D0000DE609 /* PlanChatTests */,
-				274E71FA1D6782D0000DE609 /* PlanChatUITests */,
+				277B4F321D6A4D46002DEB58 /* PlanChat */,
+				277B4F461D6A4D46002DEB58 /* PlanChatTests */,
+				277B4F511D6A4D46002DEB58 /* PlanChatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		274E71DA1D6782D0000DE609 /* Resources */ = {
+		277B4F311D6A4D46002DEB58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E71EA1D6782D0000DE609 /* LaunchScreen.storyboard in Resources */,
-				274E720E1D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
-				274E71E71D6782D0000DE609 /* Assets.xcassets in Resources */,
-				274E71E51D6782D0000DE609 /* Splash.storyboard in Resources */,
-				274E72121D678843000DE609 /* LogIn.storyboard in Resources */,
+				277B4F411D6A4D46002DEB58 /* LaunchScreen.storyboard in Resources */,
+				277B4F3E1D6A4D46002DEB58 /* Assets.xcassets in Resources */,
+				277B4F671D6A4DEF002DEB58 /* Splash.storyboard in Resources */,
+				277B4F691D6A4E5A002DEB58 /* Onboard.storyboard in Resources */,
+				277B4F3C1D6A4D46002DEB58 /* Main.storyboard in Resources */,
+				277261FC1D6AB0CA007A1DE1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71EE1D6782D0000DE609 /* Resources */ = {
+		277B4F451D6A4D46002DEB58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E720F1D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71F91D6782D0000DE609 /* Resources */ = {
+		277B4F501D6A4D46002DEB58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E72101D6782F5000DE609 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		274E72131D67887C000DE609 /* R.swift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = R.swift;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"\n";
-		};
-		4A8A9466F920D6BFB81AC56F /* [CP] Embed Pods Frameworks */ = {
+		2915A37CE74DFD084C52CA3F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,22 +345,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6E05CCD92A8E3BEB29DD1A5F /* [CP] Embed Pods Frameworks */ = {
+		2B6A7640BFA7AB3B0C4A9C8B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7651605457F28A5E62924E4E /* [CP] Copy Pods Resources */ = {
+		366E1FEF5392BBBF3FF6C6BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		866A17D4690B1FAFAA82C54C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,52 +390,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatTests/Pods-PlanChatTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A9894EFBACBD48B1EC09DB0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AC80F86B5277380FB209A9DD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B17190577E31B09FB876A847 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B242636BB13D281519B81CEB /* [CP] Copy Pods Resources */ = {
+		8FCFDBE45A0C3A279EE75402 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +405,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChatUITests/Pods-PlanChatUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D4A6801C90C37D58274D7B2E /* [CP] Check Pods Manifest.lock */ = {
+		B997656FAEA1F79545F591F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61FCA21CBE997C55C5DC7D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanChat/Pods-PlanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD23C7A2583B690E6BD74FB6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,61 +453,63 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		274E71D81D6782D0000DE609 /* Sources */ = {
+		277B4F2F1D6A4D46002DEB58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E71E21D6782D0000DE609 /* LoginOptionsViewController.swift in Sources */,
-				274E71E01D6782D0000DE609 /* AppDelegate.swift in Sources */,
-				274E72151D6788A9000DE609 /* R.generated.swift in Sources */,
-				27B36FFE1D678FC7006F14C2 /* SplashViewController.swift in Sources */,
+				277B4F391D6A4D46002DEB58 /* OnboardViewController.swift in Sources */,
+				277B4F371D6A4D46002DEB58 /* AppDelegate.swift in Sources */,
+				277B4F6B1D6AA40E002DEB58 /* UIView+IBDesignables.swift in Sources */,
+				277261FE1D6AB390007A1DE1 /* FBSDKLoginManager+Shared.swift in Sources */,
+				277B4F701D6AA560002DEB58 /* User.swift in Sources */,
+				277B4F6E1D6AA539002DEB58 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71EC1D6782D0000DE609 /* Sources */ = {
+		277B4F431D6A4D46002DEB58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E71F51D6782D0000DE609 /* PlanChatTests.swift in Sources */,
+				277B4F4C1D6A4D46002DEB58 /* PlanChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274E71F71D6782D0000DE609 /* Sources */ = {
+		277B4F4E1D6A4D46002DEB58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274E72001D6782D0000DE609 /* PlanChatUITests.swift in Sources */,
+				277B4F571D6A4D46002DEB58 /* PlanChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		274E71F21D6782D0000DE609 /* PBXTargetDependency */ = {
+		277B4F491D6A4D46002DEB58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 274E71DB1D6782D0000DE609 /* PlanChat */;
-			targetProxy = 274E71F11D6782D0000DE609 /* PBXContainerItemProxy */;
+			target = 277B4F321D6A4D46002DEB58 /* PlanChat */;
+			targetProxy = 277B4F481D6A4D46002DEB58 /* PBXContainerItemProxy */;
 		};
-		274E71FD1D6782D0000DE609 /* PBXTargetDependency */ = {
+		277B4F541D6A4D46002DEB58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 274E71DB1D6782D0000DE609 /* PlanChat */;
-			targetProxy = 274E71FC1D6782D0000DE609 /* PBXContainerItemProxy */;
+			target = 277B4F321D6A4D46002DEB58 /* PlanChat */;
+			targetProxy = 277B4F531D6A4D46002DEB58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		274E71E31D6782D0000DE609 /* Splash.storyboard */ = {
+		277B4F3A1D6A4D46002DEB58 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				274E71E41D6782D0000DE609 /* Base */,
+				277B4F3B1D6A4D46002DEB58 /* Base */,
 			);
-			name = Splash.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		274E71E81D6782D0000DE609 /* LaunchScreen.storyboard */ = {
+		277B4F3F1D6A4D46002DEB58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				274E71E91D6782D0000DE609 /* Base */,
+				277B4F401D6A4D46002DEB58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -518,7 +517,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		274E72021D6782D0000DE609 /* Debug */ = {
+		277B4F591D6A4D46002DEB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -530,10 +529,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -555,15 +558,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		274E72031D6782D0000DE609 /* Release */ = {
+		277B4F5A1D6A4D46002DEB58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -575,10 +579,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -594,83 +602,100 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		274E72051D6782D0000DE609 /* Debug */ = {
+		277B4F5C1D6A4D46002DEB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E5E05A2EE4D5D91C5F1252C /* Pods-PlanChat.debug.xcconfig */;
+			baseConfigurationReference = F57C44E3154EFC267C1546BF /* Pods-PlanChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		274E72061D6782D0000DE609 /* Release */ = {
+		277B4F5D1D6A4D46002DEB58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0A0FC0414DB24129226E6F7 /* Pods-PlanChat.release.xcconfig */;
+			baseConfigurationReference = 69B4E97EEC66A718B899B887 /* Pods-PlanChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		274E72081D6782D0000DE609 /* Debug */ = {
+		277B4F5F1D6A4D46002DEB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC1F6A7CB7782C63EAE99C46 /* Pods-PlanChatTests.debug.xcconfig */;
+			baseConfigurationReference = DD2E8F4F98A75254D939CC5C /* Pods-PlanChatTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanChat.app/PlanChat";
 			};
 			name = Debug;
 		};
-		274E72091D6782D0000DE609 /* Release */ = {
+		277B4F601D6A4D46002DEB58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55397ADFBDBFC6806CB1B75 /* Pods-PlanChatTests.release.xcconfig */;
+			baseConfigurationReference = 08A5FB9F5C27C5211839CF61 /* Pods-PlanChatTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChatTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChatTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanChat.app/PlanChat";
 			};
 			name = Release;
 		};
-		274E720B1D6782D0000DE609 /* Debug */ = {
+		277B4F621D6A4D46002DEB58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 834AF8156D8A4E4BBE939E43 /* Pods-PlanChatUITests.debug.xcconfig */;
+			baseConfigurationReference = 964E0C47921101AAEBAFF2FE /* Pods-PlanChatUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PlanChat;
 			};
 			name = Debug;
 		};
-		274E720C1D6782D0000DE609 /* Release */ = {
+		277B4F631D6A4D46002DEB58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CDF81257B2C7409B4D356AB /* Pods-PlanChatUITests.release.xcconfig */;
+			baseConfigurationReference = 3CBF79160C1B12A5FCF8F285 /* Pods-PlanChatUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZEAD23GG77;
 				INFOPLIST_FILE = PlanChatUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.PlanChatUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PlanChat;
 			};
 			name = Release;
@@ -678,43 +703,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		274E71D71D6782D0000DE609 /* Build configuration list for PBXProject "PlanChat" */ = {
+		277B4F2E1D6A4D46002DEB58 /* Build configuration list for PBXProject "PlanChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274E72021D6782D0000DE609 /* Debug */,
-				274E72031D6782D0000DE609 /* Release */,
+				277B4F591D6A4D46002DEB58 /* Debug */,
+				277B4F5A1D6A4D46002DEB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274E72041D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChat" */ = {
+		277B4F5B1D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274E72051D6782D0000DE609 /* Debug */,
-				274E72061D6782D0000DE609 /* Release */,
+				277B4F5C1D6A4D46002DEB58 /* Debug */,
+				277B4F5D1D6A4D46002DEB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274E72071D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatTests" */ = {
+		277B4F5E1D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274E72081D6782D0000DE609 /* Debug */,
-				274E72091D6782D0000DE609 /* Release */,
+				277B4F5F1D6A4D46002DEB58 /* Debug */,
+				277B4F601D6A4D46002DEB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		274E720A1D6782D0000DE609 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */ = {
+		277B4F611D6A4D46002DEB58 /* Build configuration list for PBXNativeTarget "PlanChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				274E720B1D6782D0000DE609 /* Debug */,
-				274E720C1D6782D0000DE609 /* Release */,
+				277B4F621D6A4D46002DEB58 /* Debug */,
+				277B4F631D6A4D46002DEB58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 274E71D41D6782D0000DE609 /* Project object */;
+	rootObject = 277B4F2B1D6A4D46002DEB58 /* Project object */;
 }

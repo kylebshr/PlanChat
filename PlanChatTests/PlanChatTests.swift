@@ -2,7 +2,7 @@
 //  PlanChatTests.swift
 //  PlanChatTests
 //
-//  Created by Kyle Bashour on 8/19/16.
+//  Created by Kyle Bashour on 8/21/16.
 //  Copyright © 2016 Kyle Bashour. All rights reserved.
 //
 
@@ -28,7 +28,7 @@ class PlanChatTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

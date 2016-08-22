@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="16A294a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EJU-5w-eXx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="U9g-nh-CJ0">
+            <objects>
+                <navigationController id="EJU-5w-eXx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sCZ-hW-IZG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SdX-tE-gdv" kind="relationship" relationship="rootViewController" id="MvM-Qw-KL6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KnA-vW-LT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="348" y="-184"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="zzK-ln-xcv">
+            <objects>
+                <viewController id="SdX-tE-gdv" customClass="SplashViewController" customModule="PlanChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lLI-Fy-HGp"/>
+                        <viewControllerLayoutGuide type="bottom" id="woY-PX-649"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i3T-uP-8rd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkF-bx-0ee">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KkF-bx-0ee" firstAttribute="centerX" secondItem="i3T-uP-8rd" secondAttribute="centerX" id="TkC-7f-bhG"/>
+                            <constraint firstItem="KkF-bx-0ee" firstAttribute="centerY" secondItem="i3T-uP-8rd" secondAttribute="centerY" id="eYQ-KB-1M2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sel-aS-WiR"/>
+                    <connections>
+                        <segue destination="d8O-nv-deJ" kind="presentation" identifier="ShowMainVC" modalTransitionStyle="crossDissolve" id="I1q-WC-094"/>
+                        <segue destination="JXa-hJ-n6e" kind="presentation" identifier="ShowOnboardVC" id="NWM-q9-9oi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sTq-Mk-kYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311" y="-185"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="rAe-oP-YBI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="d8O-nv-deJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avi-li-xc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1950" y="-264"/>
+        </scene>
+        <!--Onboard-->
+        <scene sceneID="bEs-vM-rZU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboard" id="JXa-hJ-n6e" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFS-Gl-X6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1954" y="-106"/>
+        </scene>
+    </scenes>
+</document>
